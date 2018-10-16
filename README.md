@@ -1,27 +1,20 @@
 # WritersFlock
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+In recent years, the integrity of media houses and newspapers have come into question due to their apparent inability to deliver “objective journalism”. 
+“Fake news” is a short phrase for what is heavily opinionated, emotional, subjective, one-sided print media and news agency. It is essential to gain the 
+trust of people in this times when votes can be hacked. It is almost irresistible for writers and journalists to give in to emotions and subjectivity in 
+hyper-sensitive environment but at the same time they have to deliver the message while ‘tiptoeing’ around sensitive topics e.g. gender, race, immigration status. 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The problem is faced by many politicians or celebrities who lost their professions, societal status due to a wrong tweet, news article or comment, 
+it is imperative to weigh your words. 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+“Writer’s flock” (resemblance with “writer’s block” is intended) is a way a journalist, a writer working in print media can be sure how objective and neutral 
+their articles are. Writer’s flock gives an immediate feedback from an outsider/layman’s point of view in terms of how positive, negative, neutral or mixed it is. 
+They can also know where they need to be less verbose and where they need to be more detail oriented. The app can be further enhanced to perform web-scraping and 
+get the overall sentiments and analytics of articles online. The app can advice the author how well the image included in the article conveys the message of the 
+article.
 
-## Build
+In short the idea behind ‘Writer’s flock’ is to show the writers all the ‘fifty shades of sentiment’ flocking around their article. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
