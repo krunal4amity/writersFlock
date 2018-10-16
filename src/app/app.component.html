@@ -1,0 +1,100 @@
+<mat-toolbar> Writer's Flock </mat-toolbar>
+
+
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" class="example-form">
+  <mat-form-field class="example-full-width">
+    <textarea matInput ngModel #article="ngModel" name="article" placeholder="Content"></textarea>
+  </mat-form-field>
+<button mat-button mat-raised-button type="submit" color="accent" >Sentiment Check</button>
+</form>
+<mat-card class="result">
+    <mat-card-content>
+      <h2 class="example-h2" style="color:red" >Negativity</h2>
+      <mat-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="invert"
+          [max]=1
+          [min]=0
+          [step]="step"
+          [thumbLabel]="thumbLabel"
+          [tickInterval]="tickInterval"
+          [(ngModel)]="negativity"
+          [vertical]="vertical">
+      </mat-slider>
+
+      <h2 class="example-h2" style="color:green" >Positivity</h2>
+      <mat-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="invert"
+          [max]=1
+          [min]=0
+          [step]="step"
+          [thumbLabel]="thumbLabel"
+          [tickInterval]="tickInterval"
+          [(ngModel)]="positivity"
+          [vertical]="vertical">
+      </mat-slider>      
+
+      <h2 class="example-h2" style="color:darkgray" >Neutrality</h2>
+      <mat-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="invert"
+          [max]=1
+          [min]=0
+          [step]="step"
+          [thumbLabel]="thumbLabel"
+          [tickInterval]="tickInterval"
+          [(ngModel)]="neutrality"
+          [vertical]="vertical">
+      </mat-slider>      
+
+      <h2 class="example-h2">Mixed</h2>
+      <mat-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="invert"
+          [max]=1
+          [min]=0
+          [step]="step"
+          [thumbLabel]="thumbLabel"
+          [tickInterval]="tickInterval"
+          [(ngModel)]="mixed_sentiment"
+          [vertical]="vertical">
+      </mat-slider>
+    </mat-card-content>
+  </mat-card>
+
+<mat-card *ngIf="i" >
+    {{i}} times you are talking about people.
+</mat-card>
+
+<mat-card *ngIf="j" >
+    Nearly {{j}} places are included in your write-up.
+</mat-card>
+
+<mat-card *ngIf="k" >
+   You mentioned nearly {{k}} organization-like entities.
+</mat-card>
+
+<mat-card *ngIf="l" >
+    Almost {{l}} times you talked about commercial matters.
+</mat-card>
+
+<mat-card *ngIf="m" >
+    You mentioned {{m}} events that have happened/will happen.
+</mat-card>
+
+<mat-card *ngIf="n" >
+    {{n}} times you mentioned instances of time. 
+</mat-card>
+
+<mat-card *ngIf="o" >
+    {{o}} times you talked about quantities.
+</mat-card>
+
+<mat-card *ngIf="p" >
+    Almost {{p}} titles are included in your article.
+</mat-card>
