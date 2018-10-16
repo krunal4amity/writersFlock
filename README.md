@@ -18,5 +18,5 @@ article.
 
 In short the idea behind ‘Writer’s flock’ is to show the writers all the ‘fifty shades of sentiment’ flocking around their article. 
 
-![img](image1.jpg)
-![img](image2.jpg)
+![img](./image1.JPG)
+![img](./image2.JPG)
